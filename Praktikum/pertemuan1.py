@@ -15,7 +15,7 @@ print("Game Tebak Angka")
 print("Tebak angka antara 1 - 20")
 
 while True:  # struktur kontrol perulangan
-    tebakan = int(input("Masukkan tebakan: "))
+    tebakan = int(input("Masukkan angka tebakan: "))
     
     riwayat_tebakan.append(tebakan)
 
@@ -31,4 +31,4 @@ print("Riwayat tebakan:", riwayat_tebakan)
 
 end_time = datetime.datetime.now()
 durasi = end_time - start_time
-print("Durasi bermain:", durasi)
+print("Durasi menebak:", durasi)
